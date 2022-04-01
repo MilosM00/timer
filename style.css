@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.up, .down{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.timer-overlay{
+    display: grid;
+    place-items: center;
+}
+
+.white-timer{
+    background-color: rgb(200, 200, 200);
+    width: 500px;
+    height: 200px;
+    border-radius: 20px;
+
+    display: grid;
+    place-items: center;
+}
+
+.display-timer{
+    background-color: rgb(57, 57, 57);
+    width: 450px;
+    height: 150px;
+    border-radius: 20px;
+
+    display: grid;
+    place-items: center;
+}
+
+.timer{
+    font-family: 'Wallpoet', cursive;
+    font-size: 70px;
+    font-weight: 800;
+    color: rgb(255, 255, 255)
+}
+
+.start{
+    background-color: rgb(57, 57, 57);
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    font-weight: 800;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.options{
+    padding-top: 20px;
+    display: inline-block;
+}
+
+.hours, .minutes, .seconds{
+    padding: 10px;
+    font-size: 20px;
+}
